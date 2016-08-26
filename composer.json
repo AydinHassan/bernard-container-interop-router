@@ -1,0 +1,21 @@
+{
+    "name": "trash-panda/bernard-container-interop-router",
+    "license": "MIT",
+    "description": "A Container Interop Router for Bernard -> https://github.com/bernardphp",
+    "keywords": ["bernard", "queue", "container-interop", "container"],
+    "authors": [
+        {
+            "name": "Aydin Hassan",
+            "email": "aydin@hotmail.co.uk"
+        }
+    ],
+    "require": {
+        "bernard/bernard": "^1.0@alpha",
+        "container-interop/container-interop": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TrashPanda\\BernardContainerInteropRouter\\": "src"
+        }
+    }
+}
